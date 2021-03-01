@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SaucedemoAutomation suite" verbose= "3" >
+ 
+   	<test name = "login page test">
+    <classes>
+      <class name="saucedemo.tests.LoginPageTest"/>
+     </classes>
+  </test> 
+  
+  <test name = "home page test">
+    <classes>
+      <class name="saucedemo.tests.ProductPageTest"/>
+     </classes>
+  </test>
+  
+</suite>
